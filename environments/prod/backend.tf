@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "verdant-tempest-378609-tfstate"
     prefix = "env/prod"
   }
 }
